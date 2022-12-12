@@ -1,7 +1,7 @@
 select*
 from [dbo].[Nashville Housing]
 
----Standardize Dat format
+---Standardize Data format
 
 select SaleDateConverted, CONVERT (Date,SaleDate)
 from[dbo].[Nashville Housing]
